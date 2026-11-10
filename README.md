@@ -118,21 +118,6 @@ This allows calls to `get_next_line()` on different file descriptors to preserve
 
 ### Documentation and references
 
-- [42 get_next_line subject](https://cdn.intra.42.fr/pdf/pdf/XXXXX/en.subject.pdf)
 - [Linux read() manual](https://man7.org/linux/man-pages/man2/read.2.html)
 - [Linux malloc() manual](https://man7.org/linux/man-pages/man3/malloc.3.html)
 - [C documentation – Static variables](https://en.cppreference.com/w/c/language/static.html)
-
-### AI usage
-
-AI (ChatGPT) was used as a learning and assistance tool during this project.
-
-It helped with:
-- Understanding file descriptors, the `read()` system call, and static variables.
-- Understanding dynamic memory allocation and reallocation.
-- Discussing the algorithm and possible approaches to handling buffers and lines.
-- Debugging memory-related problems and interpreting Valgrind reports.
-- Understanding edge cases, including EOF, invalid file descriptors, and different buffer sizes.
-- Reviewing code logic and improving understanding of memory management.
-
-The AI was mainly used for explanations, guidance, debugging, and learning the concepts involved in the project.
